@@ -1,5 +1,6 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
+// var HelloWorld = require('./hello-world')
 
 require('./index.css');
 
@@ -13,8 +14,9 @@ require('./index.css');
 class App extends React.Component {
   render() {
     return (
-      <h1>
-        Hello World!
+      <h1 className="App">
+        {/* <HelloWorld /> */}
+        Hello React!
       </h1>
     )
   }
