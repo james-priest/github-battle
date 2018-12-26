@@ -1,0 +1,4 @@
+{
+  // Enables Prettier to work with js
+  "beautify.language": { "js": [] },
+}
