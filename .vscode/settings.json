@@ -1,4 +1,4 @@
 {
-  // Enables Prettier to work with js
-  "beautify.language": { "js": [] },
+  // "eslint.autoFixOnSave": true,
+  // "eslint.trace.server": "messages"
 }
