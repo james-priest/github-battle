@@ -1,6 +1,5 @@
-var React = require('react')
-var ReactDOM = require('react-dom')
-// var HelloWorld = require('./hello-world')
+const React = require('react');
+const ReactDOM = require('react-dom');
 
 require('./index.css');
 
@@ -13,16 +12,8 @@ require('./index.css');
 // The concern is at the component level, not the technology level
 class App extends React.Component {
   render() {
-    return (
-      <h1 className="App">
-        {/* <HelloWorld /> */}
-        Hello React!
-      </h1>
-    )
+    return <h1 className="App">Hello React!</h1>;
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-)
+ReactDOM.render(<App />, document.getElementById('app'));
