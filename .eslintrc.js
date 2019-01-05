@@ -34,6 +34,7 @@ module.exports = {
       }
     ],
     "prettier/prettier": ["error"],
+    "react/destructuring-assignment": 1,
     "react/jsx-filename-extension": [
       1,
       {
@@ -43,6 +44,8 @@ module.exports = {
         ]
       }
     ],
+    "react/no-multi-comp": 1,
     "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
   }
 };
