@@ -1,5 +1,5 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+var React = require('react');
+var ReactDOM = require('react-dom');
 
 class Badge extends React.Component {
   render() {

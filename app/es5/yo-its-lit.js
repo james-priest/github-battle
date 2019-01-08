@@ -1,7 +1,7 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-require('./index.css');
+require('./hello-world.css');
 
 // COMPONENTS CONSIST OF 3 THINGS
 // state

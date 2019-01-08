@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 
 class HelloUser extends React.Component {
   render() {
-    return <div>Hello, {this.props.name}</div>;
+    const { name } = this.props;
+    return <div>Hello, {name}</div>;
   }
 }
 ReactDOM.render(<HelloUser name="James" />, document.getElementById('app'));
