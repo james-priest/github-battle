@@ -1,7 +1,7 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const PropTypes = require('prop-types');
-require('./style.css');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
+import './style.css';
 
 class Badge extends React.Component {
   render() {
@@ -23,6 +23,7 @@ Badge.propTypes = {
   img: PropTypes.string.isRequired
 };
 
+// img will produce PropTypes error: got 'object' expected 'string'
 ReactDOM.render(
   <Badge
     name="James Priest"

@@ -1,7 +1,7 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-const USER_DATA = {
+var USER_DATA = {
   name: 'James Priest',
   img: 'https://avatars1.githubusercontent.com/u/27903822?s=460&v=4',
   username: 'james-priest'
