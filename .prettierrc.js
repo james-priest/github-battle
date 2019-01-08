@@ -4,4 +4,5 @@ module.exports = {
   // tabWidth: 2, // default
   // semi: true, // default
   singleQuote: true,
+  printWidth: 100
 };
